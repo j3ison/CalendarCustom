@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038935370671",
+    "firebase_url": "https://jrcompany-d5bcf-default-rtdb.firebaseio.com",
+    "project_id": "jrcompany-d5bcf",
+    "storage_bucket": "jrcompany-d5bcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038935370671:android:099e7ebc1b030c389d9d5a",
+        "android_client_info": {
+          "package_name": "com.example.calendarview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038935370671-q2pns24hcitr3mf9el4l1sto01ig03rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1f2dUOdKhzTw-2f8H1d9LBjbaBjIKTvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038935370671-q2pns24hcitr3mf9el4l1sto01ig03rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

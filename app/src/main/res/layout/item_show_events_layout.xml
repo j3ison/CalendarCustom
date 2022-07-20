@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+    android:layout_margin="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/eventdate"
+        android:textStyle="bold"
+        android:layout_marginStart="18dp"
+        android:text="Date"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/eventname"
+        android:textStyle="bold"
+        android:text="Event"
+        android:textSize="30dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/eventtime"
+            android:layout_marginStart="18dp"
+            android:textStyle="bold"
+            android:text="Time"
+            android:textSize="25dp"/>
+        <ImageButton
+            android:layout_width="28dp"
+            android:layout_height="30dp"
+            android:id="@+id/delete"
+            android:textAllCaps="false"
+            android:background="@drawable/eliminar"
+            android:layout_marginStart="250dp"/>
+
+    </LinearLayout>
+</LinearLayout>
